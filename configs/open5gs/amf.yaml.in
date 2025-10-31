@@ -212,17 +212,17 @@ amf:
 # 3GPP Specification
 ################################################################################
 #  o GUAMI
-#  guami:
+  guami:
 #    - plmn_id:
 #        mcc: 999
 #        mnc: 70
-#      amf_id:
-#        region: 2
-#        set: 1
-#        pointer: 4
-#    - plmn_id:
-#        mcc: 001
-#        mnc: 01
+    - plmn_id:
+        mcc: 001
+        mnc: 01
+      amf_id:
+        region: 2
+        set: 1
+        pointer: 4
 #      amf_id:
 #        region: 5
 #        set: 2
